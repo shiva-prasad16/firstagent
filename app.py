@@ -6,9 +6,11 @@ from openai import OpenAI
 # Load API Key
 load_dotenv()
 
+from openai import OpenAI
+import os
+
 client = OpenAI(
-    base_url="https://integrate.api.nvidia.com/v1",
-    api_key=os.getenv("NVIDIA_API_KEY")
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 # Streamlit Page
