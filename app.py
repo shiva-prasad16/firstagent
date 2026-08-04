@@ -20,7 +20,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 AI Text Generation using NVIDIA NIM")
+st.title("🤖 AI Text Generation")
 
 st.markdown("---")
 
